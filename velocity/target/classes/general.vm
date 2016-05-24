@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<salelist>
+#foreach( $txn in $accountlist )
+  <transaction>
+    <accountno>$txn.accountno</accountno>
+    <swiftcode>$txn.swiftcode</swiftcode>
+    <narration1>$txn.narration1</narration1>
+    <narration2>$txn.narration2</narration2>
+    <narration3>$txn.narration3</narration3>
+    <narration4>$txn.narration4</narration4>
+    <narration5>$txn.narration5</narration5>
+    <narration6>$txn.narration6</narration6>
+    <narration7>$txn.narration7</narration7>
+    <narration8>$txn.narration8</narration8>
+    <narration9>$txn.narration9</narration9>
+    <narration10>$txn.narration10</narration10>
+    <narration11>$txn.narration11</narration11>
+    <narration12>$txn.narration12</narration12>
+    <narration13>$txn.narration13</narration13>
+    <narration14>$txn.narration14</narration14>
+    <narration15>$txn.narration15</narration15>
+    <narration16>$txn.narration16</narration16>
+    <narration17>$txn.narration17</narration17>
+    
+  </transaction>
+#end
+</salelist>
